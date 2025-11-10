@@ -264,24 +264,25 @@ Younger (<25) and older (>55) borrowers show more volatility.
 
 Clone the repository:
 
-```bash
+bash
 
 git clone https://github.com/pratap424/AIFUL-Credit-Risk-Analyzer.git
+cd AIFUL-Credit-Risk-Analyzer
 
+
+---
+
+
+---
 
 
 👥 Authors
 
 Yash Pratap Singh Rathore  
-Team Lead, Model Development & Explainability 
 [GitHub: @pratap424](https://github.com/pratap424)
 
-Shruti [Last Name]
-Data Analysis & Visualization Lead* 
-[GitHub: @shruti1234](https://github.com/baghelshruti)
+Shruti 
+[GitHub: @baghelshruti](https://github.com/baghelshruti)
 
 
-cd AIFUL-Credit-Risk-Analyzer
-
-
-
+---
