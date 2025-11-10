@@ -214,19 +214,19 @@ Younger (<25) and older (>55) borrowers show more volatility.
 
 
 
-| Portfolio Dashboard | Customer Insights |
+<p align="center">
 
-|----------------------|-------------------|
+&nbsp; <img src="screenshot1.png" width="45%" />
 
-| !\[Dashboard](screenshot1.png) | !\[Customer Insights](screenshot2.png) |
+&nbsp; <img src="screenshot2.png" width="45%" />
 
+&nbsp; <br/>
 
+&nbsp; <img src="screenshot3.png" width="45%" />
 
-| Fairness \& Ethics | Business Intelligence |
+&nbsp; <img src="screenshot4.png" width="45%" />
 
-|-------------------|-----------------------|
-
-| !\[Fairness](screenshot3.png) | !\[Business Intelligence](screenshot4.png) |
+</p>
 
 
 
