@@ -1,10 +1,6 @@
-\# 💳 AIFUL Credit Risk Analyzer
+\# 💳 AIFUL Credit Risk Analyzer — IIT Mandi × AiFul Japan  
 
-
-
-\### 🏆 AIHack India 2025 — IIT Mandi × AIFUL, Japan  
-
-\*\*Developer:\*\* Yash Pratap Singh Rathore (\[GitHub](https://github.com/pratap424))  
+\### \*“Explainable • Ethical • Actionable AI for Smarter Lending”\*  
 
 
 
@@ -12,15 +8,13 @@
 
 
 
-\## 🧭 Overview
+\## 🏆 AIHack India 2025 — Kaggle Competition  
 
-\*\*AIFUL Credit Risk Analyzer\*\* is an AI-powered Streamlit application designed to predict, explain, and visualize credit risk for financial institutions.  
+\*\*Team:\*\* TWO MONKS (Shruti \& Yash)  
 
-It combines \*\*Explainable AI\*\*, \*\*Fairness Evaluation\*\*, and \*\*Business Intelligence\*\* to enable smarter, more responsible lending decisions.
+\*\*Institution:\*\* IIT Mandi  
 
-
-
-This project was developed during \*\*AIHack India 2025\*\*, focusing on responsible and transparent AI in the finance domain.
+\*\*Competition Link:\*\* \[AIHack India 2025 (Kaggle)](https://www.kaggle.com/competitions/aihack-india-nov-2025/overview)
 
 
 
@@ -28,25 +22,159 @@ This project was developed during \*\*AIHack India 2025\*\*, focusing on respons
 
 
 
-\## 🚀 Features
+\## 🧩 Problem Statement
 
 
 
-| Category | Description |
+Financial institutions struggle to accurately assess borrower creditworthiness — especially in \*\*unsecured loans\*\*, where there’s no collateral.  
 
-|-----------|-------------|
+This leads to:
 
-| 🧠 \*\*Explainable AI\*\* | SHAP value-based feature interpretation per customer |
+\- Biased or inaccurate lending decisions  
 
-| 📊 \*\*Portfolio Dashboard\*\* | Risk tiers, KPIs, and risk distribution |
+\- Financial losses due to defaults  
 
-| 👤 \*\*Customer Insights\*\* | “What-If” simulator for loan/income adjustments |
+\- Reduced trust in the credit system  
 
-| ⚖️ \*\*Fairness \& Ethics\*\* | Detect demographic bias and compute fairness score |
 
-| 🧮 \*\*Business Intelligence\*\* | K-Means segmentation \& loan-to-income insights |
 
-| 📄 \*\*Credit Health Report\*\* | Generate professional PDF summaries for customers |
+Our task:  
+
+> Build a predictive and explainable AI model that classifies whether a borrower is likely to default, ensuring \*\*data-driven, fair, and responsible lending\*\*.
+
+
+
+---
+
+
+
+\## ⚙️ Challenges We Tackled
+
+
+
+| Challenge | Description |
+
+|------------|-------------|
+
+| \*\*Unbalanced Data\*\* | Default cases were far fewer, risking model bias |
+
+| \*\*No Collateral\*\* | Relied on behavioral and financial signals instead |
+
+| \*\*High Dimensionality\*\* | Managed large heterogeneous data efficiently |
+
+| \*\*Ethical Lending\*\* | Ensured fair predictions across demographics |
+
+
+
+---
+
+
+
+\## 🎯 Project Goal
+
+
+
+Develop an end-to-end AI platform that:
+
+\- Predicts \*\*default probability\*\* with high accuracy  
+
+\- Provides \*\*explainable insights\*\* (via SHAP)  
+
+\- Simulates \*\*“what-if” lending scenarios\*\*  
+
+\- Promotes \*\*fairness \& inclusion\*\* in financial systems  
+
+
+
+---
+
+
+
+\## 🧠 Technical Approach
+
+
+
+\### 🔹 Model Architecture
+
+We experimented with:
+
+\- \*\*LightGBM:\*\* High AUC, great for tabular credit data  
+
+\- \*\*CatBoost:\*\* Handles categorical features smoothly  
+
+\- \*\*XGBoost:\*\* Reliable baseline for comparison  
+
+
+
+The final ensemble combined \*\*LightGBM + CatBoost\*\*, achieving the best trade-off between \*\*accuracy and interpretability\*\*.
+
+
+
+---
+
+
+
+\## 📊 Insight Discovery
+
+
+
+\### 🧮 Loan-to-Income Ratio — \*The Strongest Default Indicator\*
+
+Borrowers with \*\*Loan-to-Income ratio > 0.6\*\* were \*\*2× more likely to default.\*\*  
+
+→ We propose setting a \*safe lending threshold\* at \*\*0.6\*\*.
+
+
+
+\### 👨‍👩‍👧 Dependents Increase Financial Stress
+
+More dependents = less disposable income = higher default probability.  
+
+→ Use dependents as a \*financial stress multiplier\* in approval scoring.
+
+
+
+\### 💼 Employment Duration = Stability
+
+Stable employment leads to predictable repayment.  
+
+→ Integrate a \*stability score\* based on employment tenure.
+
+
+
+\### 👶 Age Follows a U-Shaped Risk Curve
+
+Younger (<25) and older (>55) borrowers show more volatility.  
+
+→ Tailor loan education or support plans for these groups.
+
+
+
+---
+
+
+
+\## 💡 Business View — Turning AI Insights into Strategy
+
+
+
+| Insight | Actionable Strategy |
+
+|----------|--------------------|
+
+| High Loan-to-Income (>0.6) | Flag high-risk applicants or reduce credit limits |
+
+| Short Employment Duration (<1 yr) | Trigger manual review |
+
+| Multiple Dependents (≥3) | Adjust affordability score |
+
+| High Desired Limit Requests | Use AI-driven dynamic limit recommendations |
+
+| Fairness Score (90/100) | Ensure behavior-based lending, not demographic bias |
+
+
+
+> “AIFUL can now make \*\*faster, fairer, and smarter\*\* lending decisions, powered by an explainable AI system that connects every prediction to a business action.”
 
 
 
@@ -58,21 +186,23 @@ This project was developed during \*\*AIHack India 2025\*\*, focusing on respons
 
 
 
-\- \*\*Python 3.10+\*\*
+| Layer | Tools Used |
 
-\- \*\*Streamlit\*\*
+|--------|-------------|
 
-\- \*\*scikit-learn\*\*
+| Frontend | Streamlit |
 
-\- \*\*SHAP\*\*
+| Data | Pandas, NumPy |
 
-\- \*\*Plotly\*\*
+| ML Models | scikit-learn, LightGBM, CatBoost, XGBoost |
 
-\- \*\*NumPy / Pandas\*\*
+| Explainability | SHAP |
 
-\- \*\*FPDF\*\*
+| Visualization | Plotly |
 
-\- \*\*Joblib\*\*
+| Reporting | FPDF |
+
+| Fairness Analysis | Custom gender \& marital bias evaluation |
 
 
 
@@ -80,7 +210,55 @@ This project was developed during \*\*AIHack India 2025\*\*, focusing on respons
 
 
 
-\## 📦 Installation
+\## 🖼️ Screenshots
+
+
+
+| Portfolio Dashboard | Customer Insights |
+
+|----------------------|-------------------|
+
+| !\[Dashboard](screenshot1.png) | !\[Insights](screenshot2.png) |
+
+
+
+| Fairness \& Ethics | Business Intelligence |
+
+|-------------------|-----------------------|
+
+| !\[Fairness](screenshot3.png) | !\[BI](screenshot4.png) |
+
+
+
+---
+
+
+
+\## 🧮 Features Overview
+
+
+
+| Module | Description |
+
+|---------|-------------|
+
+| \*\*📊 Portfolio Dashboard\*\* | Portfolio-level KPIs, risk distributions, top correlated features |
+
+| \*\*👤 Customer Insights\*\* | Individual customer analysis, “What-If” simulator, SHAP interpretation |
+
+| \*\*⚖️ Fairness \& Ethics\*\* | Demographic bias detection (Gender × Marital Status), Fairness Score |
+
+| \*\*🧮 Business Intelligence\*\* | Loan-to-Income risk analysis, customer clustering (K-Means) |
+
+| \*\*📄 Credit Health Report (PDF)\*\* | Auto-generated report summarizing customer’s credit health |
+
+
+
+---
+
+
+
+\## 🚀 Installation \& Execution
 
 
 
