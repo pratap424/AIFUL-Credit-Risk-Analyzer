@@ -210,7 +210,7 @@ Younger (<25) and older (>55) borrowers show more volatility.
 
 
 
-\## 🖼️ Screenshots
+\## 📸 Screenshots
 
 
 
@@ -218,7 +218,7 @@ Younger (<25) and older (>55) borrowers show more volatility.
 
 |----------------------|-------------------|
 
-| !\[Dashboard](screenshot1.png) | !\[Insights](screenshot2.png) |
+| !\[Dashboard](screenshot1.png) | !\[Customer Insights](screenshot2.png) |
 
 
 
@@ -226,7 +226,7 @@ Younger (<25) and older (>55) borrowers show more volatility.
 
 |-------------------|-----------------------|
 
-| !\[Fairness](screenshot3.png) | !\[BI](screenshot4.png) |
+| !\[Fairness](screenshot3.png) | !\[Business Intelligence](screenshot4.png) |
 
 
 
