@@ -268,6 +268,19 @@ Clone the repository:
 
 git clone https://github.com/pratap424/AIFUL-Credit-Risk-Analyzer.git
 
+
+
+👥 Authors
+
+Yash Pratap Singh Rathore  
+Team Lead, Model Development & Explainability 
+[GitHub: @pratap424](https://github.com/pratap424)
+
+Shruti [Last Name]
+Data Analysis & Visualization Lead* 
+[GitHub: @shruti1234](https://github.com/baghelshruti)
+
+
 cd AIFUL-Credit-Risk-Analyzer
 
 
